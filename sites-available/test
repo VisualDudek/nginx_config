@@ -1,0 +1,11 @@
+server {
+	listen 80;
+	#listen [::]:80;
+
+	server_name 145.239.90.121;
+
+	location / {
+		return 200 "Hello world from test";
+	}
+}
+
